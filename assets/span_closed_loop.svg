@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.title{font-size:34px;font-weight:800}
+.label{font-size:23px;font-weight:700}
+.small{font-size:19px;fill:#66625d}
+</style>
+<rect width="1400" height="500" rx="28" fill="#f7f5f2"/>
+<text x="70" y="70" class="title">A closed-loop organizational research system</text>
+<text x="70" y="108" class="small">The product connected research configuration, employee measurement, and personalized feedback.</text>
+
+<g transform="translate(70,175)">
+  <rect x="0" y="0" width="310" height="180" rx="22" fill="#ffffff" stroke="#dedad4"/>
+  <text x="155" y="48" text-anchor="middle" class="label">1. Configure research</text>
+  <text x="155" y="88" text-anchor="middle" class="small">Org structure · scales</text>
+  <text x="155" y="120" text-anchor="middle" class="small">Questionnaires · raters</text>
+  <text x="155" y="152" text-anchor="middle" class="small">Research projects</text>
+
+  <line x1="310" y1="90" x2="385" y2="90" stroke="#3f5f56" stroke-width="5"/>
+  <polygon points="385,90 368,80 368,100" fill="#3f5f56"/>
+
+  <rect x="405" y="0" width="310" height="180" rx="22" fill="#ffffff" stroke="#dedad4"/>
+  <text x="560" y="48" text-anchor="middle" class="label">2. Collect employee data</text>
+  <text x="560" y="88" text-anchor="middle" class="small">Self assessment · peer ratings</text>
+  <text x="560" y="120" text-anchor="middle" class="small">Social-network surveys</text>
+  <text x="560" y="152" text-anchor="middle" class="small">Dynamic filtering</text>
+
+  <line x1="715" y1="90" x2="790" y2="90" stroke="#3f5f56" stroke-width="5"/>
+  <polygon points="790,90 773,80 773,100" fill="#3f5f56"/>
+
+  <rect x="810" y="0" width="450" height="180" rx="22" fill="#e7eeeb" stroke="#cdd8d3"/>
+  <text x="1035" y="48" text-anchor="middle" class="label">3. Return personalized feedback</text>
+  <text x="1035" y="88" text-anchor="middle" class="small">Scores · benchmarks · interpretation</text>
+  <text x="1035" y="120" text-anchor="middle" class="small">Radar charts · comparison tables</text>
+  <text x="1035" y="152" text-anchor="middle" class="small">Individual suggestions</text>
+</g>
+</svg>

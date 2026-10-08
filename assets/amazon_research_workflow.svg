@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.small{font-size:20px;fill:#66625d}
+.label{font-size:23px;font-weight:700}
+.title{font-size:34px;font-weight:800}
+</style>
+<rect width="1400" height="430" rx="28" fill="#f7f5f2"/>
+<text x="70" y="70" class="title">From survey design to stakeholder guidance</text>
+<text x="70" y="108" class="small">Amazon Advertising Research</text>
+
+<g transform="translate(70,175)">
+  <rect x="0" y="0" width="210" height="120" rx="18" fill="#ffffff" stroke="#dedad4"/>
+  <text x="105" y="55" text-anchor="middle" class="label">Survey design</text>
+  <text x="105" y="84" text-anchor="middle" class="small">constructs · items</text>
+
+  <line x1="210" y1="60" x2="270" y2="60" stroke="#3f5f56" stroke-width="4"/><polygon points="270,60 255,51 255,69" fill="#3f5f56"/>
+
+  <rect x="290" y="0" width="210" height="120" rx="18" fill="#ffffff" stroke="#dedad4"/>
+  <text x="395" y="55" text-anchor="middle" class="label">Measurement</text>
+  <text x="395" y="84" text-anchor="middle" class="small">reliability · factors</text>
+
+  <line x1="500" y1="60" x2="560" y2="60" stroke="#3f5f56" stroke-width="4"/><polygon points="560,60 545,51 545,69" fill="#3f5f56"/>
+
+  <rect x="580" y="0" width="210" height="120" rx="18" fill="#ffffff" stroke="#dedad4"/>
+  <text x="685" y="55" text-anchor="middle" class="label">Modeling</text>
+  <text x="685" y="84" text-anchor="middle" class="small">regression · MLM · meta</text>
+
+  <line x1="790" y1="60" x2="850" y2="60" stroke="#3f5f56" stroke-width="4"/><polygon points="850,60 835,51 835,69" fill="#3f5f56"/>
+
+  <rect x="870" y="0" width="210" height="120" rx="18" fill="#ffffff" stroke="#dedad4"/>
+  <text x="975" y="55" text-anchor="middle" class="label">Effect sizes</text>
+  <text x="975" y="84" text-anchor="middle" class="small">magnitude · context</text>
+
+  <line x1="1080" y1="60" x2="1140" y2="60" stroke="#3f5f56" stroke-width="4"/><polygon points="1140,60 1125,51 1125,69" fill="#3f5f56"/>
+
+  <rect x="1160" y="0" width="170" height="120" rx="18" fill="#e7eeeb" stroke="#cdd8d3"/>
+  <text x="1245" y="48" text-anchor="middle" class="label">Stakeholder</text>
+  <text x="1245" y="76" text-anchor="middle" class="label">guidance</text>
+</g>
+</svg>

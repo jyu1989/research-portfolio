@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.title{font-size:34px;font-weight:800}
+.label{font-size:23px;font-weight:700}
+.small{font-size:19px;fill:#66625d}
+</style>
+<rect width="1400" height="520" rx="28" fill="#f7f5f2"/>
+<text x="70" y="68" class="title">A three-phase longitudinal employee experience study</text>
+<text x="70" y="106" class="small">Baseline → 14 daily pulse surveys → post-study engagement</text>
+
+<g transform="translate(80,175)">
+<rect x="0" y="0" width="300" height="190" rx="22" fill="#ffffff" stroke="#dedad4"/>
+<text x="150" y="46" text-anchor="middle" class="label">Phase 1 · Baseline</text>
+<text x="150" y="88" text-anchor="middle" class="small">Work uncertainty</text>
+<text x="150" y="120" text-anchor="middle" class="small">Demographics &amp; controls</text>
+<text x="150" y="152" text-anchor="middle" class="small">Pre-study measures</text>
+
+<line x1="300" y1="95" x2="405" y2="95" stroke="#3f5f56" stroke-width="5"/>
+<polygon points="405,95 386,84 386,106" fill="#3f5f56"/>
+
+<rect x="425" y="0" width="350" height="190" rx="22" fill="#ffffff" stroke="#dedad4"/>
+<text x="600" y="46" text-anchor="middle" class="label">Phase 2 · 14 daily surveys</text>
+<text x="600" y="88" text-anchor="middle" class="small">Social distancing</text>
+<text x="600" y="120" text-anchor="middle" class="small">Loneliness · affect</text>
+<text x="600" y="152" text-anchor="middle" class="small">Online interaction</text>
+
+<line x1="775" y1="95" x2="880" y2="95" stroke="#3f5f56" stroke-width="5"/>
+<polygon points="880,95 861,84 861,106" fill="#3f5f56"/>
+
+<rect x="900" y="0" width="350" height="190" rx="22" fill="#e7eeeb" stroke="#cdd8d3"/>
+<text x="1075" y="46" text-anchor="middle" class="label">Phase 3 · Post survey</text>
+<text x="1075" y="88" text-anchor="middle" class="small">Work engagement</text>
+<text x="1075" y="120" text-anchor="middle" class="small">End-of-study outcomes</text>
+</g>
+<text x="700" y="445" text-anchor="middle" class="small">The design separates daily within-person fluctuations from longer-term between-person differences.</text>
+</svg>

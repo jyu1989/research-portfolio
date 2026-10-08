@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.title{font-size:34px;font-weight:800}
+.label{font-size:23px;font-weight:700}
+.small{font-size:19px;fill:#66625d}
+.big{font-size:28px;font-weight:800}
+</style>
+<rect width="1400" height="650" rx="28" fill="#f7f5f2"/>
+<text x="70" y="68" class="title">What the study found</text>
+<text x="70" y="106" class="small">Associational findings from a longitudinal experience-sampling design.</text>
+
+<rect x="80" y="170" width="350" height="300" rx="24" fill="#ffffff" stroke="#dedad4"/>
+<text x="255" y="215" text-anchor="middle" class="big">Daily effect</text>
+<text x="255" y="275" text-anchor="middle" class="label">More distancing</text>
+<text x="255" y="315" text-anchor="middle" class="label">→ more loneliness</text>
+<text x="255" y="375" text-anchor="middle" class="small">Within the same person,</text>
+<text x="255" y="405" text-anchor="middle" class="small">distancing and loneliness</text>
+<text x="255" y="435" text-anchor="middle" class="small">moved together day to day.</text>
+
+<rect x="525" y="170" width="350" height="300" rx="24" fill="#ffffff" stroke="#dedad4"/>
+<text x="700" y="215" text-anchor="middle" class="big">Cumulative effect</text>
+<text x="700" y="275" text-anchor="middle" class="label">More average distancing</text>
+<text x="700" y="315" text-anchor="middle" class="label">→ more chronic loneliness</text>
+<text x="700" y="375" text-anchor="middle" class="small">Higher chronic loneliness</text>
+<text x="700" y="405" text-anchor="middle" class="small">was associated with lower</text>
+<text x="700" y="435" text-anchor="middle" class="small">work engagement.</text>
+
+<rect x="970" y="170" width="350" height="300" rx="24" fill="#e7eeeb" stroke="#cdd8d3"/>
+<text x="1145" y="215" text-anchor="middle" class="big">Boundary condition</text>
+<text x="1145" y="275" text-anchor="middle" class="label">Work uncertainty</text>
+<text x="1145" y="315" text-anchor="middle" class="label">amplified the long-run path</text>
+<text x="1145" y="375" text-anchor="middle" class="small">The indirect association was</text>
+<text x="1145" y="405" text-anchor="middle" class="small">present at higher uncertainty</text>
+<text x="1145" y="435" text-anchor="middle" class="small">but not lower uncertainty.</text>
+
+<text x="700" y="555" text-anchor="middle" class="small">The daily cross-level interaction was not significant — the stronger moderation emerged at the between-person level.</text>
+</svg>

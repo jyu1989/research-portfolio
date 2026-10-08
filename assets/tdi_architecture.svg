@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.title{font-size:34px;font-weight:800}
+.label{font-size:23px;font-weight:700}
+.small{font-size:19px;fill:#66625d}
+</style>
+<rect width="1400" height="650" rx="28" fill="#f7f5f2"/>
+<text x="70" y="70" class="title">Team interaction → analytics → diagnosis → intervention</text>
+<text x="70" y="108" class="small">Conceptual architecture for a Team Diagnosis &amp; Intervention product.</text>
+
+<rect x="70" y="175" width="285" height="300" rx="24" fill="#fff" stroke="#dedad4"/>
+<text x="212" y="220" text-anchor="middle" class="label">Team interaction</text>
+<text x="212" y="265" text-anchor="middle" class="small">tasks · meetings · messages</text>
+<text x="212" y="300" text-anchor="middle" class="small">feedback · recognition</text>
+<text x="212" y="335" text-anchor="middle" class="small">files · advice · social ties</text>
+<text x="212" y="390" text-anchor="middle" class="small">formal + informal behavior</text>
+
+<line x1="355" y1="325" x2="455" y2="325" stroke="#3f5f56" stroke-width="6"/><polygon points="455,325 435,313 435,337" fill="#3f5f56"/>
+
+<rect x="470" y="175" width="300" height="300" rx="24" fill="#fff" stroke="#dedad4"/>
+<text x="620" y="220" text-anchor="middle" class="label">Analytics layer</text>
+<text x="620" y="265" text-anchor="middle" class="small">data capture &amp; transformation</text>
+<text x="620" y="300" text-anchor="middle" class="small">social network analysis</text>
+<text x="620" y="335" text-anchor="middle" class="small">predictive modeling</text>
+<text x="620" y="390" text-anchor="middle" class="small">trend &amp; comparison analysis</text>
+
+<line x1="770" y1="325" x2="870" y2="325" stroke="#3f5f56" stroke-width="6"/><polygon points="870,325 850,313 850,337" fill="#3f5f56"/>
+
+<rect x="885" y="175" width="445" height="300" rx="24" fill="#e7eeeb" stroke="#cdd8d3"/>
+<text x="1107" y="220" text-anchor="middle" class="label">Diagnosis &amp; feedback</text>
+<text x="1107" y="265" text-anchor="middle" class="small">team health &amp; performance bottlenecks</text>
+<text x="1107" y="300" text-anchor="middle" class="small">key people &amp; contribution patterns</text>
+<text x="1107" y="335" text-anchor="middle" class="small">leadership–context fit</text>
+<text x="1107" y="370" text-anchor="middle" class="small">individual development</text>
+<text x="1107" y="405" text-anchor="middle" class="small">team / leader / organization feedback</text>
+
+<text x="700" y="555" text-anchor="middle" class="small">The concept combined organizational science, behavioral data, and product design rather than relying only on periodic surveys.</text>
+</svg>

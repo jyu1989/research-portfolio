@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.small{font-size:19px;fill:#66625d}
+.label{font-size:22px;font-weight:700}
+.title{font-size:34px;font-weight:800}
+</style>
+<rect width="1400" height="760" rx="28" fill="#f7f5f2"/>
+<text x="70" y="70" class="title">Turning a complex method into a guided workflow</text>
+<text x="70" y="108" class="small">Illustrative R Shiny interface mockup</text>
+
+<rect x="70" y="150" width="1260" height="530" rx="24" fill="#ffffff" stroke="#dedad4"/>
+<rect x="70" y="150" width="1260" height="58" rx="24" fill="#3f5f56"/>
+<circle cx="105" cy="179" r="8" fill="#f7f5f2"/><circle cx="132" cy="179" r="8" fill="#f7f5f2"/><circle cx="159" cy="179" r="8" fill="#f7f5f2"/>
+<text x="700" y="188" text-anchor="middle" fill="#ffffff" style="font-family:Inter,Arial,sans-serif;font-size:22px;font-weight:700">MASEM Guided Analysis</text>
+
+<rect x="95" y="235" width="300" height="410" rx="16" fill="#f7f5f2"/>
+<text x="120" y="275" class="label">1. Data input</text>
+<rect x="120" y="300" width="245" height="42" rx="10" fill="#ffffff" stroke="#dedad4"/>
+<text x="135" y="327" class="small">Upload correlation matrix</text>
+<text x="120" y="390" class="label">2. Model settings</text>
+<rect x="120" y="415" width="245" height="42" rx="10" fill="#ffffff" stroke="#dedad4"/>
+<text x="135" y="442" class="small">Heterogeneity options</text>
+<text x="120" y="505" class="label">3. Run analysis</text>
+<rect x="120" y="530" width="150" height="46" rx="12" fill="#3f5f56"/>
+<text x="195" y="559" text-anchor="middle" fill="#ffffff" style="font-family:Inter,Arial,sans-serif;font-size:18px;font-weight:700">Run model</text>
+
+<rect x="430" y="235" width="420" height="190" rx="16" fill="#fbfaf8" stroke="#dedad4"/>
+<text x="455" y="270" class="label">Model diagnostics</text>
+<line x1="470" y1="380" x2="810" y2="380" stroke="#bdb8b2"/>
+<polyline points="480,350 540,330 600,340 660,300 720,310 790,275" fill="none" stroke="#3f5f56" stroke-width="5"/>
+
+<rect x="875" y="235" width="420" height="190" rx="16" fill="#fbfaf8" stroke="#dedad4"/>
+<text x="900" y="270" class="label">Guidance</text>
+<text x="900" y="315" class="small">✓ Check heterogeneity</text>
+<text x="900" y="350" class="small">✓ Review model assumptions</text>
+<text x="900" y="385" class="small">✓ Compare alternatives</text>
+
+<rect x="430" y="450" width="865" height="195" rx="16" fill="#e7eeeb"/>
+<text x="455" y="490" class="label">Interpretation output</text>
+<text x="455" y="532" class="small">Recommended workflow translated from methodological research into a self-service interface.</text>
+<text x="455" y="568" class="small">Goal: reduce coding friction while keeping analytical decisions visible to the user.</text>
+</svg>

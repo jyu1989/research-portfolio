@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.title{font-size:34px;font-weight:800}
+.label{font-size:22px;font-weight:700}
+.small{font-size:19px;fill:#66625d}
+</style>
+<rect width="1400" height="500" rx="28" fill="#f7f5f2"/>
+<text x="70" y="68" class="title">A closed-loop organizational research product</text>
+<text x="70" y="106" class="small">Configure the study → collect employee data → return usable feedback</text>
+
+<g transform="translate(70,175)">
+  <rect x="0" y="0" width="330" height="180" rx="22" fill="#ffffff" stroke="#dedad4"/>
+  <text x="165" y="48" text-anchor="middle" class="label">Configure research</text>
+  <text x="165" y="88" text-anchor="middle" class="small">Org structure · scales</text>
+  <text x="165" y="120" text-anchor="middle" class="small">Questionnaires · raters</text>
+  <text x="165" y="152" text-anchor="middle" class="small">Research projects</text>
+
+  <line x1="330" y1="90" x2="415" y2="90" stroke="#3f5f56" stroke-width="5"/>
+  <polygon points="415,90 398,80 398,100" fill="#3f5f56"/>
+
+  <rect x="435" y="0" width="330" height="180" rx="22" fill="#ffffff" stroke="#dedad4"/>
+  <text x="600" y="48" text-anchor="middle" class="label">Collect employee data</text>
+  <text x="600" y="88" text-anchor="middle" class="small">Self assessment · peer rating</text>
+  <text x="600" y="120" text-anchor="middle" class="small">Social-network surveys</text>
+  <text x="600" y="152" text-anchor="middle" class="small">Dynamic filters</text>
+
+  <line x1="765" y1="90" x2="850" y2="90" stroke="#3f5f56" stroke-width="5"/>
+  <polygon points="850,90 833,80 833,100" fill="#3f5f56"/>
+
+  <rect x="870" y="0" width="390" height="180" rx="22" fill="#e7eeeb" stroke="#cdd8d3"/>
+  <text x="1065" y="48" text-anchor="middle" class="label">Return personalized feedback</text>
+  <text x="1065" y="88" text-anchor="middle" class="small">Scores · benchmarks</text>
+  <text x="1065" y="120" text-anchor="middle" class="small">Radar charts · interpretation</text>
+  <text x="1065" y="152" text-anchor="middle" class="small">Individual suggestions</text>
+</g>
+</svg>

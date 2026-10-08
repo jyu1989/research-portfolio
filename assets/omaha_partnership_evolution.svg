@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.small{font-size:20px;fill:#66625d}
+.label{font-size:22px;font-weight:700}
+.title{font-size:34px;font-weight:800}
+</style>
+<rect width="1400" height="560" rx="28" fill="#f7f5f2"/>
+<text x="70" y="68" class="title">How the partnership evolved</text>
+<text x="70" y="108" class="small">From retrospective workforce analytics to prospective employee listening</text>
+
+<!-- Step 1 -->
+<g transform="translate(55,180)">
+  <rect x="0" y="0" width="250" height="190" rx="20" fill="#ffffff" stroke="#dedad4"/>
+  <text x="125" y="48" text-anchor="middle" class="label">Archival HR data</text>
+  <text x="125" y="88" text-anchor="middle" class="small">Retention</text>
+  <text x="125" y="120" text-anchor="middle" class="small">Coaching</text>
+  <text x="125" y="152" text-anchor="middle" class="small">Performance</text>
+</g>
+
+<!-- Arrow 1 -->
+<line x1="305" y1="275" x2="350" y2="275" stroke="#3f5f56" stroke-width="5"/>
+<polygon points="350,275 334,265 334,285" fill="#3f5f56"/>
+
+<!-- Step 2 -->
+<g transform="translate(365,180)">
+  <rect x="0" y="0" width="250" height="190" rx="20" fill="#ffffff" stroke="#dedad4"/>
+  <text x="125" y="48" text-anchor="middle" class="label">Analytics teams</text>
+  <text x="125" y="88" text-anchor="middle" class="small">Question framing</text>
+  <text x="125" y="120" text-anchor="middle" class="small">Modeling</text>
+  <text x="125" y="152" text-anchor="middle" class="small">Visualization</text>
+</g>
+
+<!-- Arrow 2 -->
+<line x1="615" y1="275" x2="660" y2="275" stroke="#3f5f56" stroke-width="5"/>
+<polygon points="660,275 644,265 644,285" fill="#3f5f56"/>
+
+<!-- Step 3 -->
+<g transform="translate(675,180)">
+  <rect x="0" y="0" width="250" height="190" rx="20" fill="#ffffff" stroke="#dedad4"/>
+  <text x="125" y="48" text-anchor="middle" class="label">Stakeholder story</text>
+  <text x="125" y="88" text-anchor="middle" class="small">Interpretation</text>
+  <text x="125" y="120" text-anchor="middle" class="small">Implications</text>
+  <text x="125" y="152" text-anchor="middle" class="small">Presentation</text>
+</g>
+
+<!-- Arrow 3 -->
+<line x1="925" y1="275" x2="970" y2="275" stroke="#3f5f56" stroke-width="5"/>
+<polygon points="970,275 954,265 954,285" fill="#3f5f56"/>
+
+<!-- Step 4 -->
+<g transform="translate(985,180)">
+  <rect x="0" y="0" width="360" height="190" rx="20" fill="#e7eeeb" stroke="#cdd8d3"/>
+  <text x="180" y="44" text-anchor="middle" class="label">Prospective employee listening</text>
+  <text x="180" y="88" text-anchor="middle" class="small">Onboarding</text>
+  <text x="180" y="120" text-anchor="middle" class="small">Culture transmission</text>
+  <text x="180" y="152" text-anchor="middle" class="small">Repeated measurement</text>
+</g>
+
+<text x="700" y="450" text-anchor="middle" class="small">Business partnership expanded from analysis of existing workforce data to prospective employee research.</text>
+</svg>

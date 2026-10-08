@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="470" viewBox="0 0 1400 470">
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#171717}
+.title{font-size:34px;font-weight:800}
+.label{font-size:21px;font-weight:700}
+.small{font-size:18px;fill:#66625d}
+</style>
+<rect width="1400" height="470" rx="28" fill="#f7f5f2"/>
+<text x="70" y="68" class="title">From 17 survey files to a multilevel model</text>
+<g transform="translate(70,170)">
+<rect x="0" y="0" width="205" height="120" rx="18" fill="#fff" stroke="#dedad4"/><text x="102" y="50" text-anchor="middle" class="label">Qualtrics</text><text x="102" y="82" text-anchor="middle" class="small">16 survey waves</text>
+<line x1="205" y1="60" x2="260" y2="60" stroke="#3f5f56" stroke-width="4"/><polygon points="260,60 246,51 246,69" fill="#3f5f56"/>
+<rect x="280" y="0" width="205" height="120" rx="18" fill="#fff" stroke="#dedad4"/><text x="382" y="50" text-anchor="middle" class="label">Merge &amp; clean</text><text x="382" y="82" text-anchor="middle" class="small">17 datasets in R</text>
+<line x1="485" y1="60" x2="540" y2="60" stroke="#3f5f56" stroke-width="4"/><polygon points="540,60 526,51 526,69" fill="#3f5f56"/>
+<rect x="560" y="0" width="205" height="120" rx="18" fill="#fff" stroke="#dedad4"/><text x="662" y="50" text-anchor="middle" class="label">Validate measures</text><text x="662" y="82" text-anchor="middle" class="small">ICC · multilevel CFA</text>
+<line x1="765" y1="60" x2="820" y2="60" stroke="#3f5f56" stroke-width="4"/><polygon points="820,60 806,51 806,69" fill="#3f5f56"/>
+<rect x="840" y="0" width="205" height="120" rx="18" fill="#fff" stroke="#dedad4"/><text x="942" y="50" text-anchor="middle" class="label">Model</text><text x="942" y="82" text-anchor="middle" class="small">within + between</text>
+<line x1="1045" y1="60" x2="1100" y2="60" stroke="#3f5f56" stroke-width="4"/><polygon points="1100,60 1086,51 1086,69" fill="#3f5f56"/>
+<rect x="1120" y="0" width="210" height="120" rx="18" fill="#e7eeeb" stroke="#cdd8d3"/><text x="1225" y="50" text-anchor="middle" class="label">Interpret</text><text x="1225" y="82" text-anchor="middle" class="small">mediation + moderation</text>
+</g>
+</svg>
