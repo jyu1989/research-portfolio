@@ -1,4 +1,4 @@
-# Jia (Joya) Yu — Research Portfolio v4
+# Jia (Joya) Yu — Research Portfolio 
 
 A lightweight static portfolio designed for GitHub Pages.
 
@@ -27,5 +27,3 @@ Do not upload raw client data, private emails, internal decks, or restricted met
 - Review project wording one final time for client confidentiality
 
 
-## Omaha Steaks update
-The Omaha case now presents the work as a two-phase program and adds the 2026 core question: how effectively organizational culture is transmitted to temporary remote workers.
