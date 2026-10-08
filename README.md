@@ -1,4 +1,4 @@
-# Jia (Joya) Yu — Research Portfolio v4
+# Jia (Joya) Yu — Research Portfolio 
 
 A lightweight static portfolio designed for GitHub Pages.
 
