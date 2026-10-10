@@ -154,3 +154,32 @@ footer { padding:28px 0; border-top:1px solid var(--line); }
 .topic-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .topic-chips span{background:var(--accent-soft);border-radius:999px;padding:7px 11px;font-size:.9rem}
 @media(max-width:760px){.impact-metrics{grid-template-columns:1fr 1fr}}
+
+/* Compact, decision-led research case studies */
+.compact-case .section-heading{max-width:850px;margin-bottom:30px}
+.compact-case .section-heading h2{font-size:clamp(1.65rem,3vw,2.55rem)}
+.compact-case .section-heading .case-summary{font-size:1.03rem}
+.insight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:22px}
+.insight-card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:23px;display:flex;flex-direction:column;gap:12px}
+.insight-card h3{font-size:1.3rem;margin:0}
+.insight-card>p{margin:0;color:#45433f}
+.insight-number,.decision-label{font-size:.73rem;font-weight:800;letter-spacing:.09em;color:var(--accent)}
+.insight-action{margin-top:auto;background:var(--accent-soft);border-radius:12px;padding:14px}
+.insight-action>strong{font-size:.83rem}
+.insight-action p{margin:4px 0 0;font-size:.93rem;color:#45433f}
+.decision-strip{display:grid;grid-template-columns:1fr 45px 1fr;align-items:center;gap:12px;padding:24px;border:1px solid var(--line);border-radius:18px;background:#f0f2ef;margin:0 0 22px}
+.decision-strip>div{display:grid;gap:6px}
+.decision-strip strong{font-size:1.12rem;line-height:1.35}
+.decision-arrow{text-align:center;color:var(--accent);font-size:1.8rem}
+.compact-grid{margin-bottom:20px}
+.compact-grid .case-block{padding:22px}
+.compact-grid .case-block h3{font-size:1.3rem}
+.compact-grid .visual-note{margin-top:14px}
+.method-details{border:1px solid var(--line);background:var(--paper);border-radius:16px;overflow:hidden}
+.method-details summary{cursor:pointer;list-style:none;font-weight:750;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.method-details summary::-webkit-details-marker{display:none}
+.method-details summary span{color:var(--accent);font-size:.84rem}
+.method-inner{border-top:1px solid var(--line);padding:20px 24px;color:#45433f}
+.method-inner p{margin:0 0 14px}
+.method-inner p:last-child{margin-bottom:0}
+@media(max-width:800px){.insight-grid{grid-template-columns:1fr}.decision-strip{grid-template-columns:1fr}.decision-arrow{transform:rotate(90deg)}}
