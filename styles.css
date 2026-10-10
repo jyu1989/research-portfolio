@@ -192,3 +192,27 @@ footer { padding:28px 0; border-top:1px solid var(--line); }
 .exploring-footnote{margin:26px 0 0;color:var(--muted);font-size:.96rem;max-width:880px}
 .exploring-footnote a{color:var(--accent);font-weight:700}
 @media(max-width:760px){.exploring-grid{grid-template-columns:1fr}}
+
+/* AI product prototypes, visual case study */
+.prototype-hero{padding-bottom:30px}
+.prototype-section{padding-top:18px}
+.prototype-feature{display:grid;grid-template-columns:minmax(230px,.85fr) minmax(0,1.15fr);gap:clamp(28px,5vw,80px);align-items:center;padding:36px 0 68px;border-bottom:1px solid var(--line)}
+.prototype-feature-reverse .prototype-image{order:2}
+.prototype-feature-reverse .prototype-copy{order:1}
+.prototype-image{display:flex;flex-direction:column;align-items:center;gap:10px}
+.prototype-phone{background:#f0eae0;border:8px solid #e3dfd8;border-radius:28px;padding:0;box-shadow:0 16px 38px rgba(30,36,33,.12);overflow:hidden;max-width:270px;width:100%}
+.prototype-phone img{display:block;width:100%;height:auto}
+.prototype-hush{background:#fff0e6;border-color:#f0dcd0}
+.prototype-caption{font-size:.8rem;color:var(--muted);margin:0}
+.prototype-copy h2{font-size:clamp(2.1rem,4vw,3.5rem);margin-bottom:14px}
+.prototype-copy>p{max-width:560px;color:#46433e}
+.prototype-copy .prototype-lead{font-size:1.22rem;color:var(--text);font-weight:650}
+.prototype-facts{display:grid;gap:0;margin:24px 0}
+.prototype-facts>div{padding:12px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:155px 1fr;gap:15px}
+.prototype-facts strong{font-size:.94rem}
+.prototype-facts span{font-size:.94rem;color:var(--muted)}
+.prototype-copy .prototype-note{padding:17px 20px;background:var(--accent-soft);border-radius:13px;color:#333e39;font-size:.95rem}
+.prototype-footer{padding:60px 0 15px;max-width:820px}
+.prototype-footer h2{font-size:clamp(1.8rem,3vw,2.5rem)}
+.prototype-footer p{color:#46433e}
+@media(max-width:760px){.prototype-feature{grid-template-columns:1fr;gap:28px}.prototype-feature-reverse .prototype-image,.prototype-feature-reverse .prototype-copy{order:initial}.prototype-facts>div{grid-template-columns:1fr;gap:3px}.prototype-phone{max-width:245px}}
