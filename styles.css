@@ -183,3 +183,12 @@ footer { padding:28px 0; border-top:1px solid var(--line); }
 .method-inner p{margin:0 0 14px}
 .method-inner p:last-child{margin-bottom:0}
 @media(max-width:800px){.insight-grid{grid-template-columns:1fr}.decision-strip{grid-template-columns:1fr}.decision-arrow{transform:rotate(90deg)}}
+
+/* Emerging AI research interests */
+.exploring-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.explore-item{border-top:2px solid var(--accent);padding:20px 4px 4px}
+.explore-item h3{font-size:1.25rem}
+.explore-item p{margin:0;color:#45433f}
+.exploring-footnote{margin:26px 0 0;color:var(--muted);font-size:.96rem;max-width:880px}
+.exploring-footnote a{color:var(--accent);font-weight:700}
+@media(max-width:760px){.exploring-grid{grid-template-columns:1fr}}
