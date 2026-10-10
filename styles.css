@@ -231,3 +231,9 @@ footer { padding:28px 0; border-top:1px solid var(--line); }
 /* Clear capability labels on all eight portfolio cards */
 .card-strength{font-size:.88rem;color:#3d514a;line-height:1.45;margin:-2px 0 14px;padding-left:12px;border-left:2px solid #9fb3a9}
 .card-strength strong{font-weight:750}
+
+/* Improve readability of the detailed On the Spot app screenshot. */
+.prototype-workout{max-width:390px}
+.prototype-zoom-link{display:block;cursor:zoom-in}
+.prototype-zoom-link:focus-visible{outline:3px solid var(--accent);outline-offset:-4px}
+@media(max-width:760px){.prototype-workout{max-width:min(100%,360px)}}
