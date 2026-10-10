@@ -154,3 +154,80 @@ footer { padding:28px 0; border-top:1px solid var(--line); }
 .topic-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .topic-chips span{background:var(--accent-soft);border-radius:999px;padding:7px 11px;font-size:.9rem}
 @media(max-width:760px){.impact-metrics{grid-template-columns:1fr 1fr}}
+
+/* Compact, decision-led research case studies */
+.compact-case .section-heading{max-width:850px;margin-bottom:30px}
+.compact-case .section-heading h2{font-size:clamp(1.65rem,3vw,2.55rem)}
+.compact-case .section-heading .case-summary{font-size:1.03rem}
+.insight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:22px}
+.insight-card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:23px;display:flex;flex-direction:column;gap:12px}
+.insight-card h3{font-size:1.3rem;margin:0}
+.insight-card>p{margin:0;color:#45433f}
+.insight-number,.decision-label{font-size:.73rem;font-weight:800;letter-spacing:.09em;color:var(--accent)}
+.insight-action{margin-top:auto;background:var(--accent-soft);border-radius:12px;padding:14px}
+.insight-action>strong{font-size:.83rem}
+.insight-action p{margin:4px 0 0;font-size:.93rem;color:#45433f}
+.decision-strip{display:grid;grid-template-columns:1fr 45px 1fr;align-items:center;gap:12px;padding:24px;border:1px solid var(--line);border-radius:18px;background:#f0f2ef;margin:0 0 22px}
+.decision-strip>div{display:grid;gap:6px}
+.decision-strip strong{font-size:1.12rem;line-height:1.35}
+.decision-arrow{text-align:center;color:var(--accent);font-size:1.8rem}
+.compact-grid{margin-bottom:20px}
+.compact-grid .case-block{padding:22px}
+.compact-grid .case-block h3{font-size:1.3rem}
+.compact-grid .visual-note{margin-top:14px}
+.method-details{border:1px solid var(--line);background:var(--paper);border-radius:16px;overflow:hidden}
+.method-details summary{cursor:pointer;list-style:none;font-weight:750;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.method-details summary::-webkit-details-marker{display:none}
+.method-details summary span{color:var(--accent);font-size:.84rem}
+.method-inner{border-top:1px solid var(--line);padding:20px 24px;color:#45433f}
+.method-inner p{margin:0 0 14px}
+.method-inner p:last-child{margin-bottom:0}
+@media(max-width:800px){.insight-grid{grid-template-columns:1fr}.decision-strip{grid-template-columns:1fr}.decision-arrow{transform:rotate(90deg)}}
+
+/* Emerging AI research interests */
+.exploring-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.explore-item{border-top:2px solid var(--accent);padding:20px 4px 4px}
+.explore-item h3{font-size:1.25rem}
+.explore-item p{margin:0;color:#45433f}
+.exploring-footnote{margin:26px 0 0;color:var(--muted);font-size:.96rem;max-width:880px}
+.exploring-footnote a{color:var(--accent);font-weight:700}
+@media(max-width:760px){.exploring-grid{grid-template-columns:1fr}}
+
+/* AI product prototypes, visual case study */
+.prototype-hero{padding-bottom:30px}
+.prototype-section{padding-top:18px}
+.prototype-feature{display:grid;grid-template-columns:minmax(230px,.85fr) minmax(0,1.15fr);gap:clamp(28px,5vw,80px);align-items:center;padding:36px 0 68px;border-bottom:1px solid var(--line)}
+.prototype-feature-reverse .prototype-image{order:2}
+.prototype-feature-reverse .prototype-copy{order:1}
+.prototype-image{display:flex;flex-direction:column;align-items:center;gap:10px}
+.prototype-phone{background:#f0eae0;border:8px solid #e3dfd8;border-radius:28px;padding:0;box-shadow:0 16px 38px rgba(30,36,33,.12);overflow:hidden;max-width:270px;width:100%}
+.prototype-phone img{display:block;width:100%;height:auto}
+.prototype-hush{background:#fff0e6;border-color:#f0dcd0}
+.prototype-caption{font-size:.8rem;color:var(--muted);margin:0}
+.prototype-copy h2{font-size:clamp(2.1rem,4vw,3.5rem);margin-bottom:14px}
+.prototype-copy>p{max-width:560px;color:#46433e}
+.prototype-copy .prototype-lead{font-size:1.22rem;color:var(--text);font-weight:650}
+.prototype-facts{display:grid;gap:0;margin:24px 0}
+.prototype-facts>div{padding:12px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:155px 1fr;gap:15px}
+.prototype-facts strong{font-size:.94rem}
+.prototype-facts span{font-size:.94rem;color:var(--muted)}
+.prototype-copy .prototype-note{padding:17px 20px;background:var(--accent-soft);border-radius:13px;color:#333e39;font-size:.95rem}
+.prototype-footer{padding:60px 0 15px;max-width:820px}
+.prototype-footer h2{font-size:clamp(1.8rem,3vw,2.5rem)}
+.prototype-footer p{color:#46433e}
+@media(max-width:760px){.prototype-feature{grid-template-columns:1fr;gap:28px}.prototype-feature-reverse .prototype-image,.prototype-feature-reverse .prototype-copy{order:initial}.prototype-facts>div{grid-template-columns:1fr;gap:3px}.prototype-phone{max-width:245px}}
+
+/* Early discovery and product thinking on prototype case study */
+.prototype-intro{padding:0 0 20px}
+.prototype-process{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:17px 20px;border:1px solid var(--line);background:#fff;border-radius:16px;flex-wrap:wrap}
+.prototype-process span{font-size:.84rem;font-weight:700;color:var(--accent);display:flex;align-items:center;gap:10px}
+.prototype-process span:not(:last-child)::after{content:"→";color:#a3ada6;font-weight:500;margin-left:12px}
+.prototype-discovery-note{font-size:.87rem;color:var(--muted);margin:11px 4px 0}
+.prototype-story h3{font-size:.82rem;letter-spacing:.07em;text-transform:uppercase;color:var(--accent);margin:21px 0 5px}
+.prototype-story p{color:#46433e;margin:0;line-height:1.62}
+.prototype-story h3:first-child{margin-top:17px}
+@media(max-width:760px){.prototype-process{justify-content:flex-start;gap:9px 15px}.prototype-process span:not(:last-child)::after{margin-left:4px}.prototype-intro{padding-bottom:8px}}
+
+/* Clear capability labels on all eight portfolio cards */
+.card-strength{font-size:.88rem;color:#3d514a;line-height:1.45;margin:-2px 0 14px;padding-left:12px;border-left:2px solid #9fb3a9}
+.card-strength strong{font-weight:750}
