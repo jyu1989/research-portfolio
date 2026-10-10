@@ -227,3 +227,7 @@ footer { padding:28px 0; border-top:1px solid var(--line); }
 .prototype-story p{color:#46433e;margin:0;line-height:1.62}
 .prototype-story h3:first-child{margin-top:17px}
 @media(max-width:760px){.prototype-process{justify-content:flex-start;gap:9px 15px}.prototype-process span:not(:last-child)::after{margin-left:4px}.prototype-intro{padding-bottom:8px}}
+
+/* Clear capability labels on all eight portfolio cards */
+.card-strength{font-size:.88rem;color:#3d514a;line-height:1.45;margin:-2px 0 14px;padding-left:12px;border-left:2px solid #9fb3a9}
+.card-strength strong{font-weight:750}
