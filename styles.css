@@ -216,3 +216,14 @@ footer { padding:28px 0; border-top:1px solid var(--line); }
 .prototype-footer h2{font-size:clamp(1.8rem,3vw,2.5rem)}
 .prototype-footer p{color:#46433e}
 @media(max-width:760px){.prototype-feature{grid-template-columns:1fr;gap:28px}.prototype-feature-reverse .prototype-image,.prototype-feature-reverse .prototype-copy{order:initial}.prototype-facts>div{grid-template-columns:1fr;gap:3px}.prototype-phone{max-width:245px}}
+
+/* Early discovery and product thinking on prototype case study */
+.prototype-intro{padding:0 0 20px}
+.prototype-process{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:17px 20px;border:1px solid var(--line);background:#fff;border-radius:16px;flex-wrap:wrap}
+.prototype-process span{font-size:.84rem;font-weight:700;color:var(--accent);display:flex;align-items:center;gap:10px}
+.prototype-process span:not(:last-child)::after{content:"→";color:#a3ada6;font-weight:500;margin-left:12px}
+.prototype-discovery-note{font-size:.87rem;color:var(--muted);margin:11px 4px 0}
+.prototype-story h3{font-size:.82rem;letter-spacing:.07em;text-transform:uppercase;color:var(--accent);margin:21px 0 5px}
+.prototype-story p{color:#46433e;margin:0;line-height:1.62}
+.prototype-story h3:first-child{margin-top:17px}
+@media(max-width:760px){.prototype-process{justify-content:flex-start;gap:9px 15px}.prototype-process span:not(:last-child)::after{margin-left:4px}.prototype-intro{padding-bottom:8px}}
